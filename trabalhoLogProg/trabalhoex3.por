@@ -3,7 +3,7 @@ programa
 	
 	funcao inicio()
 	{
-		const inteiro  Nalunos = 2
+		const inteiro  Nalunos = 10
 		inteiro mediaAlunos[Nalunos]
 		real p1[Nalunos], p2[Nalunos], media [Nalunos]
 		cadeia nomealunos[Nalunos]
@@ -47,7 +47,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 231; 
+ * @POSICAO-CURSOR = 62; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

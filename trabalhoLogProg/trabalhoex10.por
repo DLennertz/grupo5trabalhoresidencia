@@ -72,6 +72,7 @@ programa
 		escreva ("\nMATRIZ RESULTADO\n")
 		escreva("\n")
 		para(inteiro l = 0; l<tamanhoaMatrizes; l++) {
+			escreva("   ")
 			para (inteiro c = 0; c<tamanhoaMatrizes; c++){
 				matResult [l][c] = mat1[l][c] + mat2[l][c]
 				escreva(matResult[l][c]," ")	
@@ -85,8 +86,8 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 212; 
- * @DOBRAMENTO-CODIGO = [39];
+ * @POSICAO-CURSOR = 1546; 
+ * @DOBRAMENTO-CODIGO = [9, 39];
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

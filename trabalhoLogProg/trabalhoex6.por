@@ -16,33 +16,21 @@ programa
 			leia(n2)
 
 			se(n1<n2){
-				se(n1%2==0){
-					para(inteiro i=n1; i<=n2; i+=2){
+				
+			  	para(inteiro i=n1; i<=n2; i++){
+			  		se (i%2==0){
 						soma=soma+i
-					}
-					escreva("A soma dos numeros pares no intervalo entre ", n1, " e ", n2, " é ", soma)
+			  		}
 				}
-				senao{
-					para(inteiro i=n1+1; i<=n2; i+=2){
-						soma=soma+i
-					}
-					escreva("A soma dos numeros pares no intervalo entre ", n1, " ", n2, " é ", soma)
-				}
+				escreva("\nA soma dos numeros pares no intervalo entre ", n1, " e ", n2, " é ", soma)				
 			}
 			se(n1>n2){
-				se(n2%2==0){
-					para(inteiro i=n1; i>=n2; i-=2)
-					{
-						soma=soma+i
+				para(inteiro i=n2; i<=n1; i++){
+					se (i%2==0) {
+					soma=soma+i
 					}
-					escreva("A soma dos numeros pares no intervalo entre ", n1, " e ", n2, " é ", soma)
 				}
-				senao{
-					para(inteiro i=n1-1; i>=n2; i-=2){
-						soma=soma+i
-					}
-					escreva("A soma dos numeros pares no intervalo entre ", n1, " ", n2, " é ", soma)
-				}
+					escreva("\nA soma dos numeros pares no intervalo entre ", n1, " e ", n2, " é ", soma)
 			}
 	}
 }
@@ -52,9 +40,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 442; 
+ * @POSICAO-CURSOR = 568; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {n1, 11, 10, 2}-{n2, 11, 14, 2}-{i, 20, 18, 1}-{i, 26, 18, 1}-{i, 34, 18, 1}-{i, 41, 18, 1};
+ * @SIMBOLOS-INSPECIONADOS = {n1, 11, 10, 2}-{n2, 11, 14, 2}-{soma, 11, 18, 4};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
