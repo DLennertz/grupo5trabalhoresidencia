@@ -12,7 +12,7 @@ programa
 	funcao inicio()
 	{
 		real num1,num2
-		cadeia opcao
+		inteiro opcao
 
 			faca
 			{
@@ -26,21 +26,27 @@ programa
 			
 			escreva("Digite o segundo valor: ")
 			leia(num2)
-			se(num2<=0){
-				faca
-				{
+			
+			enquanto(num2<=0){
 					escreva("O segundo número deve ser maior do que zero, digite um novo valor: ")
 					leia(num2)
 				}
-				enquanto(num2<=0)
-			}
-
+				
 			escreva("Resultado: ", num1, " / ", num2, " = ", mat.arredondar(num1/num2, 2), "\n")
 
-			escreva("\nDeseja calcular outra divisão?\nDigite: Sim ou Não: ")
+			escreva("\nDeseja calcular outra divisão?\nDigite: \n1 - Sim \n2 - Não\n")
 			leia(opcao)
+
+				enquanto (opcao != 1 e opcao != 2) {
+					limpa()
+					escreva("Escolha inválida\n")
+					escreva ("\nDeseja calcular outra divisão?\nDigite: \n1 - Sim \n2 - Não\n")
+					leia(opcao)
+					
+				}
+			
 			}
-			enquanto(opcao=="Sim" ou opcao=="sim")
+			enquanto(opcao==1)
 	}
 
 	funcao linha ()
@@ -53,7 +59,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1015; 
+ * @POSICAO-CURSOR = 996; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
