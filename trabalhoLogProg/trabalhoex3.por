@@ -13,7 +13,7 @@ programa
 		
 		
 		para (inteiro i = 0; i < Nalunos; i ++){
-			escreva("Escreva o nome do aluno: ")
+			escreva("Escreva o nome do aluno #", i+1," : ")
 			leia(nomealunos[i])
 			
 			escreva("Digite a nota 1 do aluno ", nomealunos[i], " : ")
@@ -47,7 +47,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 62; 
+ * @POSICAO-CURSOR = 240; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
