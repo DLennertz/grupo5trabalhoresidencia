@@ -80,7 +80,7 @@ programa
 		escreva("\nDigite o segundo número : ")
 		leia(n2)
 
-		escreva("\nA soma ", n1, " + ", n2, " é = ", calcSoma(n1,n2))
+		escreva("\n", n1, " + ", n2, " = ", calcSoma(n1,n2))
 	}
 
 	funcao real calcSoma(real n1, real n2)
@@ -98,7 +98,7 @@ programa
 		escreva("\nDigite o segundo número : ")
 		leia(n2)
 
-		escreva("\nA subtração ", n1, " - ", n2, " é = ", calcSubtracao(n1,n2))
+		escreva("\n", n1, " - ", n2, " = ", calcSubtracao(n1,n2))
 	}
 
 	funcao real calcSubtracao(real n1, real n2)
@@ -116,7 +116,7 @@ programa
 		escreva("\nDigite o segundo número : ")
 		leia(n2)
 
-		escreva("\nA multiplicação ", n1, " * ", n2, " é = ", calcMultiplicacao(n1,n2))
+		escreva("\n", n1, " * ", n2, " = ", calcMultiplicacao(n1,n2))
 	}
 
 	funcao real calcMultiplicacao(real n1, real n2)
@@ -138,7 +138,7 @@ programa
 			leia(n2)
 		}
 
-		escreva("\nA divisão ", n1, " / ", n2, " é = ", calcDivisao(n1,n2))
+		escreva("\n", n1, " / ", n2, " = ", calcDivisao(n1,n2))
 	}
 
 	funcao real calcDivisao(real n1, real n2)
@@ -151,7 +151,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 454; 
+ * @POSICAO-CURSOR = 2115; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
